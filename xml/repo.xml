@@ -1,3 +1,14 @@
+<!--
+OS Format:
+<release>
+    <trueos>Blank, OS version if it doesn't sort properly</trueos>
+    <os>OS version, OS version with leading zero(es) if it doesn't sort properly</os>
+    <radio>Radio version</radio>
+    <software>Software version</software>
+    <notes>OS notes, generally who released it</notes>
+</release>
+-->
+
 <repo>
     <release>
        <trueos></trueos>
