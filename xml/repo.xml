@@ -403,6 +403,13 @@ OS Format:
     </release>
     <release>
         <trueos></trueos>
+        <os>10.1.0.1022</os>
+        <radio>10.1.0.1021</radio>
+        <software>10.1.0.138</software>
+        <notes>SDK Autoloader</notes>
+    </release>
+    <release>
+        <trueos></trueos>
         <os>10.1.0.1002</os>
         <radio>10.1.0.1003</radio>
         <software>10.1.0.132</software>
@@ -468,7 +475,7 @@ OS Format:
         <trueos>10.0.10.263</trueos>
         <os>10.0.10.0262</os>
         <radio>10.0.10.262</radio>
-        <software>N/A</software>
+        <software>10.9.10.35</software>
         <notes>SDK Autoloader</notes>
     </release>
     <release>
