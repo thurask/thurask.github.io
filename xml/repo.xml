@@ -5,11 +5,25 @@ OS Format:
     <os>OS version, OS version with leading zero(es) if it doesn't sort properly</os>
     <radio>Radio version</radio>
     <software>Software version</software>
-    <notes>OS notes, generally who released it</notes>
+    <notes>OS notes, generally who released it; if it's an autoloader, make sure "SDK Autoloader" is present</notes>
 </release>
 -->
 
 <repo>
+    <release>
+        <trueos></trueos>
+        <os>10.3.0.700</os>
+        <radio>10.3.0.699</radio>
+        <software>N/A</software>
+        <notes>SDK Autoloader</notes>
+    </release>
+    <release>
+        <trueos></trueos>
+        <os>10.3.0.442</os>
+        <radio>10.3.0.441</radio>
+        <software>N/A</software>
+        <notes>SDK Autoloader</notes>
+    </release>
     <release>
        <trueos></trueos>
        <os>10.2.1.3247</os>
@@ -89,10 +103,24 @@ OS Format:
     </release>
     <release>
         <trueos></trueos>
+        <os>10.2.1.1927</os>
+        <radio>10.2.1.1926</radio>
+        <software>N/A</software>
+        <notes>SDK Autoloader</notes>
+    </release>
+    <release>
+        <trueos></trueos>
         <os>10.2.1.1925</os>
         <radio>10.2.1.1899</radio>
         <software>10.2.1.537</software>
         <notes>10.2.1 Launch</notes>
+    </release>
+    <release>
+        <trueos></trueos>
+        <os>10.2.1.1057</os>
+        <radio>10.2.1.1056</radio>
+        <software>N/A</software>
+        <notes>SDK Autoloader</notes>
     </release>
     <release>
         <trueos></trueos>
@@ -107,6 +135,13 @@ OS Format:
         <radio>10.2.1.1804</radio>
         <software>10.2.1.429</software>
         <notes>10.2.0 MR</notes>
+    </release>
+    <release>
+        <trueos></trueos>
+        <os>10.2.0.1793</os>
+        <radio>10.2.0.1792</radio>
+        <software>N/A</software>
+        <notes>SDK Autoloader</notes>
     </release>
     <release>
         <trueos></trueos>
@@ -145,6 +180,13 @@ OS Format:
     </release>
     <release>
         <trueos></trueos>
+        <os>10.2.0.1445</os>
+        <radio>10.2.0.1444</radio>
+        <software>N/A</software>
+        <notes>SDK Autoloader</notes>
+    </release>
+    <release>
+        <trueos></trueos>
         <os>10.2.0.1443</os>
         <radio>10.2.0.1444</radio>
         <software>10.2.0.210</software>
@@ -158,11 +200,25 @@ OS Format:
         <notes>Verizon Z30 Launch</notes>
     </release>
     <release>
+        <trueos></trueos>
+        <os>10.2.0.1157</os>
+        <radio>10.2.0.1156</radio>
+        <software>N/A</software>
+        <notes>SDK Autoloader</notes>
+    </release>
+    <release>
         <trueos>10.2.0.783</trueos>
         <os>10.2.0.0783</os>
         <radio>10.2.0.784</radio>
         <software>10.2.0.110</software>
         <notes>On servers for some reason</notes>
+    </release>
+    <release>
+        <trueos>10.2.0.341</trueos>
+        <os>10.2.0.0341</os>
+        <radio>10.2.0.340</radio>
+        <software>N/A</software>
+        <notes>SDK Autoloader</notes>
     </release>
     <release>
         <trueos></trueos>
@@ -333,6 +389,13 @@ OS Format:
     </release>
     <release>
         <trueos></trueos>
+        <os>10.1.0.1485</os>
+        <radio>10.1.0.1484</radio>
+        <software>N/A</software>
+        <notes>SDK Autoloader</notes>
+    </release>
+    <release>
+        <trueos></trueos>
         <os>10.1.0.1483</os>
         <radio>10.1.0.1484</radio>
         <software>10.1.0.238</software>
@@ -400,6 +463,13 @@ OS Format:
         <radio>10.0.10.262</radio>
         <software>10.9.10.35</software>
         <notes>Dev Alpha</notes>
+    </release>
+    <release>
+        <trueos>10.0.10.263</trueos>
+        <os>10.0.10.0262</os>
+        <radio>10.0.10.262</radio>
+        <software>N/A</software>
+        <notes>SDK Autoloader</notes>
     </release>
     <release>
         <trueos>10.0.10.261</trueos>
