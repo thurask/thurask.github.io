@@ -5,7 +5,16 @@ OS Format:
     <os>OS version, OS version with leading zero(es) if it doesn't sort properly</os>
     <radio>Radio version</radio>
     <software>Software version</software>
-    <notes>OS notes, generally who released it; if it's an autoloader, make sure "SDK Autoloader" is present</notes>
+    <notes>OS notes, generally who released it/if it's an autoloader</notes>
+</release>
+
+Blank:
+<release>
+    <trueos></trueos>
+    <os></os>
+    <radio></radio>
+    <software></software>
+    <notes></notes>
 </release>
 -->
 
@@ -23,6 +32,13 @@ OS Format:
         <radio>10.3.0.441</radio>
         <software>N/A</software>
         <notes>SDK Autoloader</notes>
+    </release>
+    <release>
+        <trueos></trueos>
+        <os>10.2.2.1531</os>
+        <radio>10.2.2.1532</radio>
+        <software>10.2.2.932</software>
+        <notes>Your guess is as good as mine</notes>
     </release>
     <release>
        <trueos></trueos>
