@@ -38,14 +38,21 @@ Blank:
         <os>10.2.2.1531</os>
         <radio>10.2.2.1532</radio>
         <software>10.2.2.932</software>
-        <notes>Your guess is as good as mine</notes>
+        <notes>Ask Angela Merkel</notes>
+    </release>
+    <release>
+        <trueos></trueos>
+        <os>10.2.1.3358</os>
+        <radio>10.2.1.3359</radio>
+        <software>10.2.1.3023</software>
+        <notes>Minor bugfix to 10.2.1.3253 for Sprint</notes>
     </release>
     <release>
        <trueos></trueos>
        <os>10.2.1.3253</os>
        <radio>10.2.1.3182</radio>
        <software>10.2.1.2976</software>
-       <notes>Minor bugfix to 10.2.1.3181 for Verizon Z10</notes>
+       <notes>Minor bugfix to 10.2.1.3181 for Verizon</notes>
     </release>
     <release>
        <trueos></trueos>
