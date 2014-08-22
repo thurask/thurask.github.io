@@ -21,6 +21,13 @@ Blank:
 <repo>
     <release>
         <trueos></trueos>
+        <os>10.3.0.1052</os>
+        <radio>10.3.0.1053</radio>
+        <software>10.3.0.6755</software>
+        <notes>Passport launch OS</notes>
+    </release>
+    <release>
+        <trueos></trueos>
         <os>10.3.0.700</os>
         <radio>10.3.0.699</radio>
         <software>N/A</software>
