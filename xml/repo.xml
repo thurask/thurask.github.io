@@ -27,15 +27,15 @@ Blank:
         <notes>Passport launch OS</notes>
     </release>
     <release>
-        <trueos></trueos>
-        <os>10.3.0.700</os>
+        <trueos>10.3.0.700</trueos>
+        <os>10.3.0.0700</os>
         <radio>10.3.0.699</radio>
         <software>N/A</software>
         <notes>SDK Autoloader</notes>
     </release>
     <release>
-        <trueos></trueos>
-        <os>10.3.0.442</os>
+        <trueos>10.3.0.442</trueos>
+        <os>10.3.0.0442</os>
         <radio>10.3.0.441</radio>
         <software>N/A</software>
         <notes>SDK Autoloader</notes>
