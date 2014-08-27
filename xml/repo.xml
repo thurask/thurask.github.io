@@ -55,6 +55,13 @@ Blank:
         <notes>Minor bugfix to 10.2.1.3253 for Sprint</notes>
     </release>
     <release>
+        <trueos></trueos>
+        <os>10.2.1.3337</os>
+        <radio>10.2.1.3338</radio>
+        <software>10.2.1.3014</software>
+        <notes>10.2.1 MR for AT&T</notes>
+    </release>
+    <release>
        <trueos></trueos>
        <os>10.2.1.3253</os>
        <radio>10.2.1.3182</radio>
