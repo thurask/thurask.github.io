@@ -1,4 +1,7 @@
 <!--
+
+===REPO===
+A list of all the OSs available on BlackBerry's public servers. Either on CSE prod or Developer (for autoloaders)
 OS Format:
 <release>
     <trueos>Blank, OS version if it doesn't sort properly</trueos>
@@ -19,6 +22,13 @@ Blank:
 -->
 
 <repo>
+    <release>
+        <trueos></trueos>
+        <os>10.3.0.1154</os>
+        <radio>10.3.0.1155</radio>
+        <software>10.3.0.738</software>
+        <notes>On servers for some reason</notes>
+    </release>
     <release>
         <trueos></trueos>
         <os>10.3.0.1052</os>
