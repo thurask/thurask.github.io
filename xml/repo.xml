@@ -24,6 +24,13 @@ Blank:
 <repo>
     <release>
         <trueos></trueos>
+        <os>10.3.0.1172</os>
+        <radio>10.3.0.1155</radio>
+        <software>10.3.0.754</software>
+        <notes>On servers for some reason -- Passport only</notes>
+    </release>
+    <release>
+        <trueos></trueos>
         <os>10.3.0.1154</os>
         <radio>10.3.0.1155</radio>
         <software>10.3.0.738</software>
@@ -62,7 +69,7 @@ Blank:
         <os>10.2.1.3358</os>
         <radio>10.2.1.3359</radio>
         <software>10.2.1.3023</software>
-        <notes>Minor bugfix to 10.2.1.3253 for Sprint</notes>
+        <notes>Minor bugfix to 10.2.1.3253 for Sprint -- No STL100-1</notes>
     </release>
     <release>
         <trueos></trueos>
@@ -72,11 +79,18 @@ Blank:
         <notes>10.2.1 MR for ATT</notes>
     </release>
     <release>
+        <trueos></trueos>
+        <os>10.2.1.3289</os>
+        <radio>10.2.1.3290</radio>
+        <software>10.2.1.2991</software>
+        <notes>10.2.1 MR MR for Verizon Z30 -- No STL100-1</notes>
+    </release>
+    <release>
        <trueos></trueos>
        <os>10.2.1.3253</os>
        <radio>10.2.1.3182</radio>
        <software>10.2.1.2976</software>
-       <notes>Minor bugfix to 10.2.1.3181 for Verizon</notes>
+       <notes>Minor bugfix to 10.2.1.3181 for Verizon Z10/Q10</notes>
     </release>
     <release>
        <trueos></trueos>
