@@ -203,4 +203,19 @@ Blank:
 		<name>P'9983</name>
 		<variant>SQK100-2</variant>
 	</hardware>
+	<hardware>
+		<id>06001A06</id>
+		<name>PlayBook</name>
+		<variant>WiFi</variant>
+	</hardware>
+	<hardware>
+		<id>0D001A06</id>
+		<name>PlayBook</name>
+		<variant>LTE</variant>
+	</hardware>
+	<hardware>
+		<id>0E001A06</id>
+		<name>PlayBook</name>
+		<variant>HSPA+</variant>
+	</hardware>
 </repo>
