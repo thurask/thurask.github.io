@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|BlackBerry">
+      <Configuration>Debug</Configuration>
+      <Platform>BlackBerry</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|BlackBerry">
+      <Configuration>Release</Configuration>
+      <Platform>BlackBerry</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{22DFCF27-757B-4A8A-BAEF-BCCC48D1DC6B}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|BlackBerry'">
+    <PlatformToolset>qcc</PlatformToolset>
+    <TargetArch>armle-v7</TargetArch>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|BlackBerry'">
+    <PlatformToolset>qcc</PlatformToolset>
+    <TargetArch>armle-v7</TargetArch>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|BlackBerry'">
+    <ClCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="archivist.version" />
+    <None Include="bbdownloader_version_1030.txt" />
+    <None Include="bbdownloader_version_1031.txt" />
+    <None Include="dtd\hwid.dtd" />
+    <None Include="dtd\ptcrb.dtd" />
+    <None Include="dtd\repo.dtd" />
+    <None Include="hwid.xml" />
+    <None Include="lazyloader.version" />
+    <None Include="ptcrb.xml" />
+    <None Include="repo.xml" />
+    <None Include="version.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xsd Include="xsd\hwid.xsd" />
+    <Xsd Include="xsd\ptcrb.xsd" />
+    <Xsd Include="xsd\repo.xsd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

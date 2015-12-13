@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{36569196-46d8-4222-b9d8-aad911cee9d6}</UniqueIdentifier>
+      <Extensions>qml;js;qmljs;jpg;png;gif;bmp;ico;amd;wav;mp3;mp4</Extensions>
+    </Filter>
+    <Filter Include="Config Files">
+      <UniqueIdentifier>{bd6d67b0-0395-4b69-baf7-1e658e7d2ccf}</UniqueIdentifier>
+      <Extensions>pri;pro;mk;properties;project;cproject;xml;xsd;bat;cmd;ps;ps1</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2f7ccfbb-b3bb-4766-877f-98278d490a6b}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;asm;h;hpp;hxx;hm;def;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Translations">
+      <UniqueIdentifier>{263b68eb-8c6a-4628-a12f-354b5fdeb182}</UniqueIdentifier>
+      <Extensions>ts;qm</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="archivist.version" />
+    <None Include="bbdownloader_version_1030.txt" />
+    <None Include="bbdownloader_version_1031.txt" />
+    <None Include="hwid.xml">
+      <Filter>Config Files</Filter>
+    </None>
+    <None Include="lazyloader.version" />
+    <None Include="ptcrb.xml">
+      <Filter>Config Files</Filter>
+    </None>
+    <None Include="repo.xml">
+      <Filter>Config Files</Filter>
+    </None>
+    <None Include="version.txt" />
+    <None Include="dtd\hwid.dtd" />
+    <None Include="dtd\ptcrb.dtd" />
+    <None Include="dtd\repo.dtd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xsd Include="xsd\hwid.xsd">
+      <Filter>Config Files</Filter>
+    </Xsd>
+    <Xsd Include="xsd\ptcrb.xsd">
+      <Filter>Config Files</Filter>
+    </Xsd>
+    <Xsd Include="xsd\repo.xsd">
+      <Filter>Config Files</Filter>
+    </Xsd>
+  </ItemGroup>
+</Project>
