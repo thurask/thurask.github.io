@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thurask.github.io", "thurask.github.io.vcxproj", "{22DFCF27-757B-4A8A-BAEF-BCCC48D1DC6B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bbdownloader", "..\bbdownloader\bbdownloader.vcxproj", "{9D1D5A91-832B-4C19-96B8-FAC0E712D110}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|BlackBerry = Debug|BlackBerry
@@ -15,6 +17,10 @@ Global
 		{22DFCF27-757B-4A8A-BAEF-BCCC48D1DC6B}.Debug|BlackBerry.Build.0 = Debug|BlackBerry
 		{22DFCF27-757B-4A8A-BAEF-BCCC48D1DC6B}.Release|BlackBerry.ActiveCfg = Release|BlackBerry
 		{22DFCF27-757B-4A8A-BAEF-BCCC48D1DC6B}.Release|BlackBerry.Build.0 = Release|BlackBerry
+		{9D1D5A91-832B-4C19-96B8-FAC0E712D110}.Debug|BlackBerry.ActiveCfg = Debug|BlackBerry
+		{9D1D5A91-832B-4C19-96B8-FAC0E712D110}.Debug|BlackBerry.Build.0 = Debug|BlackBerry
+		{9D1D5A91-832B-4C19-96B8-FAC0E712D110}.Release|BlackBerry.ActiveCfg = Release|BlackBerry
+		{9D1D5A91-832B-4C19-96B8-FAC0E712D110}.Release|BlackBerry.Build.0 = Release|BlackBerry
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
